@@ -1,0 +1,121 @@
+body{
+    background-color: white;
+}
+.container{
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    margin-top: 20px; /* Espacio desde la parte superior */
+
+}
+
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: -90px; 
+}
+
+.buttonG{
+    width: 300px; /* Ancho del botón */
+    height: 40px; /* Altura del botón */
+    background-color: white; /* Color de fondo de Google */
+    color: black; /* Color del texto */
+    border: 2px solid  #d3d3d3;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+
+    display: flex;
+    align-items:center; 
+    gap: 10px; 
+    justify-content: center;
+}
+
+.buttonA{
+    width: 300px; /* Ancho del botón */
+    height: 40px; /* Altura del botón */
+    background-color: white; /* Color de fondo de Apple */
+    color: black; /* Color del texto */
+    border: 2px solid  #d3d3d3;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    margin-top: 15px; /* Espacio entre los botones */
+    font-weight: bold;
+
+    display: flex;
+    align-items:center; 
+    gap: 10px; 
+    justify-content: center;
+}
+
+.separador{
+    
+    display: flex;
+    align-items:center; 
+    margin-left: 140px; 
+    margin-right: 40px;   
+}
+
+.buttonC{
+    width: 300px; /* Ancho del botón */
+    height: 40px; /* Altura del botón */
+    background-color: #007bff; /* Color de fondo de Google */
+    color: white; /* Color del texto */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    margin-top: 6px; /* Espacio entre los botones */
+    font-weight: bold;
+}
+
+.buttonI{
+    width: 300px; /* Ancho del botón */
+    height: 40px; /* Altura del botón */
+    background-color: white; /* Color de fondo de Google */
+    color:  #007bff;; /* Color del texto */
+    border: 2px solid  #d3d3d3;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 2px; 
+}
+
+.pregunta{
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 15px;
+}
+
+
+.texto {
+    font-size: 12px;
+    color: #808080; 
+    margin-top: 2px; 
+    margin-bottom: 40px;
+}
+
+.azul {
+    color: #007bff; 
+}
+
+
+.FotoA {
+    width: 20px; 
+    height: auto; 
+    justify-content: center;
+}
+
+
+.FotoG{
+    width: 30px; 
+    height: auto; 
+    justify-content: center;
+}
